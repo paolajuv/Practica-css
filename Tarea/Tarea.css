@@ -1,0 +1,13 @@
+body{
+    background: #C2EDDB;
+    margin: 100;
+    padding: 100;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+span{
+    background: #000000;
+}
