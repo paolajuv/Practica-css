@@ -18,3 +18,54 @@ section{
     height: 100vh;
     box-sizing: border-box;
 }
+
+.sec1{
+    background: url("./../IMG/arbol.jfif"); /*utiliza para agregar una imagen de fondo de pantalla*/
+    background-repeat: no-repeat; /*se utiliza para que la imagen no se repita*/
+    background-size: cover; /*se utilza para cubrir la imagen de acuerdo al tamaño que le dimos en el section*/
+    background-position: center; /*se utilza para centrar la imagen en el section*/
+    background-attachment: fixed; /*Se utiliza para mandar la imagen como fondo de pantalla*/
+
+}
+
+.sec2{
+    background: url("./../IMG/images.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.sec3{
+    background: url("./../IMG/paisaje.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.sectext{
+    height: auto; /*La etiqueta height: auto se acomoda dependiento el tamaño del titilo y del parrafo*/
+    padding: 50px 100px; /*Se agrega un espacio de 50px arriba y 100px abajo*/
+
+}
+
+.sectext > h3{
+    margin: 0;
+    padding: 0;
+    font-size: 48px; /*Se utiliza para darle tamaño a la etiqueta*/
+    color: #ffffff; /*Se utiliza par darle color al texto*/
+}
+
+.sectext > p{
+    font-size: 18px;
+    color: #ffffff;
+    text-align: justify; /* Alineacion de texto justificadamente*/
+
+}
+h1{
+    font-size: 48px;
+    color: #ffffff;
+    padding-left: 50px; /* Darle un espacio hacia la derecha*/
+
+}
