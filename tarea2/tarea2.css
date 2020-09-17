@@ -1,0 +1,23 @@
+h2{
+    color: crimson;
+}
+.class1{
+    color: crimson;
+}
+p{
+    color: rgb(36, 36, 241);
+}
+.class2{
+    color: blue;
+    background: rgb(255, 255, 136);
+    font-style: oblique;
+}
+
+.sectext > p{
+color: black;
+}
+
+.sub{
+    color: yellow;
+    background: black;
+}
