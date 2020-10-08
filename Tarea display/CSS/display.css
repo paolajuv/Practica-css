@@ -1,0 +1,114 @@
+body{
+    margin: 10% 10%;
+    background: rgb(109, 125, 126);
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.letra-color{
+    color:  rgb(76, 84, 85);
+}
+#cuadrito{
+    background: salmon;
+}
+.fila1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+ .centerflex-end {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.flex-start{
+    justify-content: flex-start;
+    display: flex;
+    width: 30%;
+    height: 30%;
+    padding: 15px;
+    background: #ffffff; 
+}
+.texto{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+
+#cuadro-mediano{
+    background: rgb(133, 45, 67);
+    width: 20px;
+    height: 12px;
+    padding: 12px;
+}
+#cuadro-grande{
+    background: #224b42;
+    width: 25px;
+    height: 12px;
+    padding: 12px;
+}
+#cuadro-pequeño{
+    background: tomato;
+    width: 10px;
+    height: 12px;
+    padding: 12px;
+}
+.fila2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.texto2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.center{
+    justify-content: center;
+    display: flex;
+    width: 30%;
+    height: 30%;
+    padding: 15px;
+    background: #ffffff; 
+}
+.flex-end{
+    justify-content: flex-end;
+    display: flex;
+    width: 30%;
+    height: 30%;
+    padding: 15px;
+    background: #ffffff; 
+}
+.fila3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.texto3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.space-between{
+    justify-content: space-between;
+    display: flex;
+    width: 30%;
+    height: 30%;
+    padding: 15px;
+    background: #ffffff; 
+}
+.space-around{
+    justify-content: space-around;
+    display: flex;
+    width: 30%;
+    height: 30%;
+    padding: 15px;
+    background: #ffffff; 
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Lekton:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(231, 255, 247);
+    width: 100%;
+    height: 100vh;
+    border: 2px;
+    position: relative;
+}
+
+h1{
+    color: whitesmoke;
+    background-color: rgb(170, 184, 182);
+    font-size: 46px;
+    border-bottom: 10px;
+    font-family: 'Lekton', sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+img{
+    margin: 10px 10px;
+    width: 20vw;
+    height: 20vh;
+    position: static;
+    right: 30%;
+    top: 20%;
+}
+
+div > ul{
+    color: rgb(54, 52, 52);
+    font-size: 30px;
+    font-family: 'Cutive Mono', monospace;
+    font-style: normal;
+    text-align: right;
+}
+
+h4{
+    color: whitesmoke;
+    background-color: rgb(170, 184, 182);
+    font-size: 40px;
+    border-bottom: 10px;
+    font-family: 'Lekton', sans-serif;
+    font-style: normal;
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: darkcyan;
+}
+
+h1{
+    text-align: center;
+    color: cornsilk;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 2%;
+}
+
+video{
+    width: 50%;
+    height: 50%;
+    margin: 2% 25%;
+}
+
+audio{
+    width: 50%;
+    margin: 2% 25%;
+}
+
+iframe{
+    width: 50%;
+    margin: 2% 25%;
+}

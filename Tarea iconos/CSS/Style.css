@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(118, 204, 178);
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 252, 240);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 2%;
+}
+
+.fila1{
+display: flex;
+flex-flow: row wrap;    
+justify-content: center;
+margin-top: 6%;
+}
+
+.fila2{
+    display: flex;
+    flex-flow: row wrap;  
+    justify-content: center;
+    margin-top: 0%;
+}
+
+.fila3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+a > .fa{
+   font-size: 80px;
+   cursor: pointer;
+}
+
+a > .fa:hover{
+    color: lightcyan;
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+h1{
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.slider{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden; 
+}
+
+.slider > ul{
+    display: flex;
+    padding: 0;
+    width: 900%;
+    animation: carrousel 20s infinite alternate;
+}
+
+.slider > ul > li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider > ul > li > img{
+    width: 100%;
+}
+
+@keyframes carrousel{
+   0%{
+       margin-left: 0%;
+   }
+
+   5%{
+       margin-left: 0%;
+   }
+
+   10%{
+       margin-left: -100%;
+   }
+
+   15%{
+       margin-left: -100%;
+   }
+
+   20%{
+       margin-left: -200%;
+   }
+
+   25%{
+         margin-left: -200%;
+     }
+
+     30%{
+        margin-left: -300%;
+    }
+
+    35%{
+        margin-left: -300;
+    }
+
+    45%{
+         margin-left: -400%;
+    }
+
+    50%{
+         margin-left: -500%;
+     }
+
+     70%{
+         margin-left: -600%;
+     }
+
+     75%{
+         margin-left: -700%;
+     }
+
+   100%{
+         margin-left: -800%;
+   }
+}

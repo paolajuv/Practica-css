@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: lightgoldenrodyellow
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 2%;
+    font-family: cursive;
+}
+
+video{
+    width: 50%;
+    height: 90%;
+    margin: 2% 25%;
+}
+
+audio{
+    width: 50%;
+    margin: 2% 25%;
+}
+
+iframe{
+    width: 50%;
+    margin: 2% 25%;
+}

@@ -1,0 +1,101 @@
+h1{
+    color: rgb(91, 9, 168);
+    padding: 0;
+    margin: 0;
+}
+
+.flexstart{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    background: rgb(91, 9, 168);
+}
+
+.flexstart > div{
+    width: 20px;
+    height: 1px;
+    background: rgb(197, 92, 17);
+    margin: 15px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.flexend{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    background: rgb(91, 9, 168);
+}
+
+.flexend > div{
+    width: 20px;
+    height: 1px;
+    background: rgb(197, 92, 17);
+    margin: 15px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.center{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background: rgb(91, 9, 168);
+}
+
+.center > div{
+    width: 20px;
+    height: 1px;
+    background: rgb(197, 92, 17);
+    margin: 15px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.spacebetween{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background: rgb(91, 9, 168);
+}
+
+.spacebetween > div{
+    width: 20px;
+    height: 1px;
+    background: rgb(197, 92, 17);
+    margin: 15px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.spacearound{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background: rgb(91, 9, 168);
+}
+
+.spacearound > div{
+    width: 20px;
+    height: 1px;
+    background: rgb(197, 92, 17);
+    margin: 15px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.spaceevenly{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background: rgb(91, 9, 168);
+}
+
+.spaceevenly > div{
+    width: 20px;
+    height: 1px;
+    background: rgb(197, 92, 17);
+    margin: 15px;
+    padding: 15px;
+    font-size: 15px;
+}
